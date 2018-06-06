@@ -52,16 +52,6 @@ function deleteUser(){
                         }
                     }
                 });
-                // $.post('/user/' + row.id, {_method:'delete'}, function(result){
-                //     if (result == 'error'){
-                //         $.messager.show({	// show error message
-                //             title: 'Error',
-                //             msg: result.errorMsg
-                //         });
-                //     } else {
-                //         $('#dg').datagrid('reload');	// reload the user data
-                //     }
-                // },'json');
             }
         });
     }
